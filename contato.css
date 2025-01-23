@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(imagens/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    height: 100%;
+}
+
+#nav-principal {
+    background-color: rgba(0, 0, 0, 0.459);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-principal > a {
+    color: goldenrod;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+h2 {
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+    color: goldenrod;
+    background-color: rgb(56, 54, 54);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid 3px goldenrod;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: goldenrod;
+    background-color: rgba(56, 54, 54, 0.425);
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid 3px goldenrod;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 5px;
+    background-color: goldenrod;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        background-image: url(imagens/header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    /*main {
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgb(124, 117, 117), black);
+    }
+
+    header {
+        height: 220px;
+        background-image: url(imagens/header.jpg);
+        background-position: center;
+        background-size: contain;
+    }*/
+
+    #nav-bene {
+        background-color: rgba(0, 0, 0, 0.459);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav-bene > a {
+        color: goldenrod;
+        margin-right: 10px;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+
+    #bene {
+        margin-bottom: 25px;
+    }
+
+    #bene > h2 {
+        padding: 15px;
+        margin-top: 25px;
+        text-align: center;
+        color: goldenrod;
+        background-color: rgb(56, 54, 54);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    #primeiro-beneficio {
+        list-style-type: decimal;
+    }
+
+    h3 {
+        padding: 10px;
+        background-color: rgba(63, 63, 63, 0.726);
+        border-left: solid 3px goldenrod;
+        border-right: solid 3px goldenrod;
+    }
+
+    h2 {
+        border: solid 3px goldenrod;
+    }
+
+    h2, h3 {
+        
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    ul {
+        
+        padding-bottom: 10px;
+        background-color: rgba(63, 63, 63, 0.726);
+        margin-left: 20px;
+        margin-right: 20px;
+        border-left: solid 3px goldenrod;
+        border-right: solid 3px goldenrod;
+    }
+
+    #ultima {
+        border-bottom: solid 3px goldenrod;
+    }
+
+    ul li {
+        margin-left: 35px;
+        letter-spacing: 2px;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    li, h3 {
+        color: white;
+    }
+
+    footer {
+        padding: 5px;
+        background-color: goldenrod;
+    }
+
+    footer > p {
+        color: white;
+        text-align: center;
+        font-size: 1.3em;
+        
+    }
+
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    #caixa-perfil {
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #perfil-ft {
+        margin-top: 20px;
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        border: 3px solid goldenrod;
+        box-shadow: 0px 0px 30px white;
+        
+    }
+
+    #nav-principal {
+        background-color: rgba(0, 0, 0, 0.459);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav-principal > a {
+        color: goldenrod;
+        margin-right: 10px;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+
+    #sobre {
+        margin: 25px;
+    }
+
+    #sobre > h2 {
+        padding: 15px;
+        margin-top: 25px;
+        text-align: center;
+        color: goldenrod;
+        background-color: rgb(56, 54, 54);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    #sobre > p {
+        color: white;
+        background-color: rgba(63, 63, 63, 0.726);
+        text-align: left;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 30px;
+        letter-spacing: 2px;
+    }
+
+    #sobre > p, h2 {
+        border: solid 2px goldenrod;
+    }
+
+    #servicos {
+        margin: 25px;
+        
+    }
+
+    #servicos > h2 {
+        text-align: center;
+        color: goldenrod;
+        background-color: rgb(56, 54, 54);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        padding: 15px;
+        margin-top: 25px;
+    }
+
+    #servicos > ul {
+        background-color: rgba(63, 63, 63, 0.726);
+        padding-left: 40px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+        border: solid 2px goldenrod;
+    }
+
+    #servicos li {
+        color: white;
+        list-style-type: decimal;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+
+    #cabine {
+        margin: 25px;
+    }
+
+    #cabine > h2 {
+        text-align: center;
+        background-color: rgb(56, 54, 54);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        padding: 15px;
+        margin-top: 25px;
+        color: goldenrod;
+    }
+
+    #ft-cabine {
+        width: 360px;
+        height: 360px;
+        border: solid 2px goldenrod;
+    }
+
+    footer {
+        background-color: goldenrod;
+        padding: 5px;
+    }
+
+    footer > p {
+        text-align: center;
+        font-size: 1.3em;
+        color: white;
+    }
+
+}
